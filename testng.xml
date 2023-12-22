@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="rok.qa.Testcases.Convert_leadto_opps_Testcase_09"/>
+      <class name="rok.qa.Testcases.CreateLeads_Testcase_03"/>
+      <class name="rok.qa.Testcases.BaseClass"/>
+      <class name="rok.qa.Testcases.LandingPage_leads_04"/>
+      <class name="rok.qa.Testcases.RP_Lead_Testcase_06"/>
+      <class name="rok.qa.Testcases.Dashboard_Lead_Testcase_02"/>
+      <class name="rok.qa.Testcases.RP_Ld_Pg_Testcase_05"/>
+      <class name="rok.qa.Testcases.Update_BF_lead_testcase_08"/>
+      <class name="rok.qa.Testcases.Update_RPlead_Testcase_07"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
