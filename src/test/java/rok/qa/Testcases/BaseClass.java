@@ -1,5 +1,7 @@
 package rok.qa.Testcases;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.logging.log4j.LogManager;
@@ -61,6 +63,7 @@ public class BaseClass {
 
 	}
 
+	@AfterMethod
 	@AfterClass
 	public void tearDown() {
 		// driver.close();
